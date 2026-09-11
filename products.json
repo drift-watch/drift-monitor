@@ -1,0 +1,16 @@
+[
+  {
+    "id": "item-a",
+    "name": "Produit A",
+    "url": "https://www.casio.com/fr/watches/gshock/product.GA-110PKM-7A/",
+    "price": "239€"
+  },
+  {
+    "id": "item-b",
+    "name": "Produit B",
+    "url": "https://www.e.leclerc/fp/console-nintendo-switch-2-edition-40e-anniversaire-de-the-legend-of-zelda-nintendo-switch-2-0045496337292",
+    "price": "469€",
+    "out_of_stock_markers": ["précommande épuisée"],
+    "in_stock_markers": ["ajouter au panier"]
+  }
+]
