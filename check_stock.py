@@ -19,6 +19,7 @@ Variables d'environnement requises (deja definies en secrets GitHub) :
   TELEGRAM_CHAT_ID   : ton chat_id Telegram
 """
 
+import base64
 import json
 import os
 import sys
@@ -35,7 +36,11 @@ DEFAULT_IN_STOCK_MARKERS = ["ajouter au panier"]
 
 
 def load_products() -> list:
-    return json.loads(PRODUCTS_FILE.read_text())
+    products = json.loads(PRODUCTS_FILE.read_text())
+    for product in products:
+        if "url" not in product and "url_b64" in product:
+            product["url"] = base64.b64decode(product["url_b64"]).decode("utf-8")
+    return products
 
 
 def load_state() -> dict:
