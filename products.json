@@ -20,5 +20,13 @@
     "price": "419€",
     "out_of_stock_markers": ["indisponible"],
     "in_stock_markers": ["ajouter au panier"]
+  },
+  {
+    "id": "item-d",
+    "name": "Produit D",
+    "url_b64": "aHR0cHM6Ly93d3cubWljcm9tYW5pYS5mci9wL2NvbnNvbGUtbmludGVuZG8tc3dpdGNoLTItZWRpdGlvbi1saW1pdGVlLTQwZW1lLWFubml2ZXJzYWlyZS10aGUtbGVnZW5kLW9mLXplbGRhLTE2NDc4Ny5odG1s",
+    "price": "509€",
+    "out_of_stock_markers": ["victime de son succès", "créer une alerte"],
+    "in_stock_markers": ["ajouter au panier"]
   }
 ]
